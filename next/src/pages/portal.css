@@ -1,0 +1,121 @@
+.desktop { display: none; }
+.subtract1_bg { width: 100%; height: calc(100vh - 70px); background-image: url('/Images/Subtract1.png'); background-size: 355px calc(100% - 24px) !important; background-position: top center; background-repeat: no-repeat; padding: 20px; height: 689px; width: 368px; margin: auto; position: relative; }
+.max-w { max-width: 362px; }
+.subtract1_bg.relative h2 { max-width: 273px; margin-left: auto; margin-right: auto; text-shadow: rgb(255, 127, 42) 0px 0px 20px; }
+.quest { position: absolute; right: 0; left: 0; margin: auto; top: 52%; width: 313px; }
+.subtract_bg.port { background: none; height: auto; padding: 0; }
+.subtract_bg.port .translationButtons { top: 31%; left: -2%; }
+.spher { position: absolute; right: 1px; top: 19%; }
+.core2 { background: url('/Images/core2.png'); background-repeat: no-repeat; background-size: 355px calc(100% - 24px) !important; background-position: top center; height: 450px; width: 368px; margin: auto; position: relative; margin-top: 66px; }
+.core2_btn { top: -27px; }
+.core2_btn .main_left_top_sp_bg { background-image: url('/Images/rec.png'); background-position: left; background-size: contain; background-repeat: no-repeat; }
+.subt { background-image: url('/Images/subt.png'); background-position: top center; background-repeat: no-repeat; height: 450px; width: 250px; background-size: 250px 336px !important; margin: 18px 0px 0px 15px; }
+.multi { background-image: url('/Images/multi.png'); background-position: top center; background-repeat: no-repeat; height: 86px; width: 134px; position: absolute; right: 0; }
+.connect { right: -17px; transform: rotate(270deg); bottom: 96px; display: flex; align-items: center; gap: 3px; }
+.email_section { background-image: url('/Images/mail.png'); background-position: top center; background-repeat: no-repeat; height: 680px; width: 368px; background-size: 355px 100%; margin: auto; }
+.market_box { background-image: url('/Images/market_box.png'); background-position: top center; background-repeat: no-repeat; height: 214px; width: 325px; background-size: 100% 100%; margin: auto; position: relative; padding: 67px 20px 10px 20px; }
+.market_box p { text-shadow: 0px 0px 8px #00FF00; }
+.airdop { position: relative; }
+.airdp { margin-top: -39px; }
+.live { left: 33px; top: 3px; display: flex; align-items: center; gap: 3px; }
+.term_box { background: url('/Images/term.png'); background-repeat: no-repeat; background-size: 366px calc(100% - 24px) !important; background-position: top center; height: 330px; width: 368px; margin: auto; position: relative; margin-top: 45px; padding: 35px 22px; }
+.Iphone { /* background: #000 !important; */
+    position: relative; z-index: 1; background: url('/Images/iphone_bg.jpg') !important; background-repeat: repeat-x; }
+.Iphone_header nav { position: relative; z-index: 5; }
+.menu_bg { background: #fd822b3b; border: 1px solid #fd822b; border-radius: 20px; padding: 25px; }
+.core_quest_detail { position: relative; background: url('/Images/core3.png'); background-repeat: no-repeat; background-size: 366px calc(100% - 24px) !important; background-position: top center; height: 931px; width: 368px; margin: auto; position: relative; margin-top: 45px; padding: 35px 10px; }
+.reward { position: relative; background: url('/Images/reward.png'); background-repeat: no-repeat; background-size:100%  !important; background-position: top center; height: 101px; width: 350px; margin: auto; position: relative; padding: 15px 15px; margin-top: -15px; }
+.emailInput_box { background: url('/Images/reward_input.png'); background-repeat: no-repeat; background-size: 100% 100% !important; border: none; }
+.reward .core2_btn { top: auto; }
+.multi.with_box { background-image: url('/Images/multi2.png'); background-position: top center; background-repeat: no-repeat; height: 111px; width: 182px; position: absolute; right: -15px; top: -11px; }
+.twitt_box { background-image: url('/Images/twitt_box.png'); background-position: top center; background-repeat: no-repeat; height: 217px; width: 295px; position: relative; margin: -9px auto 0 auto; background-size: 100% 100% !important; }
+.grn_txt { text-shadow: 0px 0px 8px #0F0; color: #0F0; font-size: 22px; font-weight: bold; position: absolute; top: 44px; left: 0; right: 0; margin: auto !important; text-align: center; }
+.grn_txt { text-shadow: 0px 0px 8px #0F0; color: #0F0; font-size: 22px; font-weight: bold; position: absolute; top: 49px; left: 0; right: 0; margin: auto !important; text-align: center; width: 108px; background: #0006; line-height: 26px; border-radius: 20px; }
+.twitt_box { position: relative; }
+.twitt_post { background: #000; border-radius: 20px; height: 150px; overflow: auto;}
+.twitt_post iframe {width: 100% !important; }
+.connect.add { right: -48px; line-height: 20px; color: #0F0; }
+.t_button { border-radius: 13px; border: 1px solid #FF7F2A; white-space: nowrap !important; background: rgba(0, 0, 0, 0.55); box-shadow: 0px 0px 9.7px 0px #FF7F2A; width: 85%; transition: width 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease; display: flex; gap: 5px; align-items: center; padding: 0 10px; justify-content: space-between; font-size: 16px; font-weight: 700; height: 50px; }
+.Iphone_header .popupStatus { top: 54%; right: 0%; z-index: 2; left: 0; width: 138px; padding: 7px 20px; margin: auto; }
+.Iphone_header .popupStatus h2 { font-size: 11px !important; text-align: center; }
+.Iphone_header .invitePopUp { height: 24px; top: auto; padding: 10px; left: 0; right: 0; margin: auto; bottom: 10px; background: #CBCBCA; font-size: 13px !important; box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.7), 0px 0px 10px rgba(0, 0, 0, 0.5) inset;color: #444;}
+.Iphone_header .invitePopUp::before {display: none;}
+.Iphone_header .invitePopUp .rounded_gradient_border::before { display: none;}
+/* Arabic */
+
+
+.btn_quest.quest h3 {
+    position: absolute;
+    top: 22px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #F26507;
+    text-shadow: 0 0px 3px #7B3404;
+  }
+  .core1.z-20.m-auto {
+    width: 100%;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #F26507;
+    text-shadow: 0 1px 2px #fff;line-height: 40px;
+  }
+  .spera_arabic {
+    font-size: 38px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #414141;
+    text-shadow: 0 3px 2px #262626;
+    margin-left: 27px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+  .les_rn span {
+    position: absolute;
+    top: 23px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    font-size: 14px;
+    color: #fff;
+    width: 140px;
+    margin: auto;
+  }
+  .twitter_z img {
+    width: 23px; margin-top: 0px;
+  }
+
+  .twitter_z {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    width: 190px;margin-top: 17px;
+  }
+  .les_rn {
+    position: relative;
+  }
+  /* #turn {display: none;z-index: 100;position: fixed;
+  }
+  
+  @media (orientation: landscape) {#turn {
+      display:block;
+    }
+  } */
+
+
+@media only screen and (min-width: 480px) {
+ .desktop { display: block; }
+.desktop_header { display: block; }
+.Iphone_header { display: none; }
+.Iphone { display: none; }
+ }
+@media only screen and (max-width: 480px) {
+ .desktop { display: none; }
+.desktop_header { display: none; }
+.Iphone { display: block; padding-top: 20px; }
+.Iphone_header { display: block; }
+ }

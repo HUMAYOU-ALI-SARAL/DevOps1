@@ -1,0 +1,120 @@
+.navbar {
+  width: 100% !important;
+  /* Full width */
+  display: flex;
+  /* Flexbox display */
+  justify-content: space-between;
+  /* Space between the child elements */
+  align-items: center;
+  /* Vertically center the child elements */
+  padding: 4px;
+  /* Padding */
+  height: 70px;
+  /* Fixed height */
+  color: white;
+  /* Text color */
+  position: fixed;
+  /* Fixed position */
+  top: 1px;
+  /* Top position */
+  z-index: 50;
+  /* Stack order */
+  padding: 0 20px;
+}
+.copyIcon{
+  transition: 0.1s ease-in-out;
+  cursor:copy;
+}
+.copyIcon:hover{
+transform: scale(1.1);
+}
+.invitePopUp{
+  position:absolute !important;
+  width:fit-content;
+  height:45px;
+  top: 100%;
+  background-color: #191512;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s ease-in-out;
+  justify-content: space-between;
+}
+.hideInvitePopUp{
+  display: none;
+}
+.invitePopUp span{
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.invitePopUp input{
+  width: 100px;
+  height:15px;
+  /* background-color: red; */
+  outline: none;
+  background: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px;
+}
+.invitePopUp input:focus{
+  outline: none;
+}
+.popupStatus{
+   background-color: #CBCBCA;
+   color: #444;
+   text-transform: uppercase;
+   padding: 10px 20px;
+   border-radius: 100px;
+   font-weight: 600;
+   cursor: pointer;
+   position: absolute;
+   top: 100%;
+   right:0%;
+   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.7), 0px 0px 10px rgba(0, 0, 0, 0.5) inset;
+
+
+}
+.hideConnect{
+  display: none;
+}
+.custom-tooltip {
+  display: none;
+  background-color: #383838;
+  color: #fff;
+}
+
+.group:hover .custom-tooltip {
+  display: block;
+}
+
+.rounded_gradient_border {
+  position: relative;
+  border-radius: 50px;
+}
+
+.rounded_gradient_border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50px; /* Match the border-radius with the main container */
+  padding: 1px;
+  background: linear-gradient(90deg,
+    #FF7F2A 0%, #FF7F2A 20%, transparent 40%, transparent 60%, #FF7F2A 80%, #FF7F2A 100%);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  background-clip: border-box;
+  z-index: 0;
+}
+
+.rounded_gradient_border>* {
+  position: relative;
+  z-index: 1;
+}
