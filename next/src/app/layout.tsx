@@ -4,7 +4,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "sphera world",
-  description: "Sphera world Summer Season",
+  description: "Sphera Summer Season",
 };
 
 export default function RootLayout({
