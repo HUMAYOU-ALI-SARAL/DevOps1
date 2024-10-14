@@ -113,7 +113,7 @@ const SecondPage = () => {
                 <div className="flex flex-col justify-center items-center mb-4">
                     <img src="/Images/Logo.webp" alt="Sphera World Logo" className="w-[120px] md:w-[100px] h-[110px] md:h-[90px]" />
                     <img src="/Images/SpheraWorld.webp" alt="Sphera World Logo" className="h-6 w-[200px] md:w-[220px] m-auto mt-2 md:mt-6" />
-                    <p className="text-orange text-xl md:text-3xl my-2 md:mt-6 font-jura font-semibold">SPHERA ARENA: PHASE ONE</p>
+                    <p className="text-orange text-xl md:text-3xl my-2 md:mt-6 font-jura font-semibold">HUmayou</p>
 
                     <div className="relative flex justify-center items-center">
                         <p className="text-white font-jura my-4 flex justify-center items-center gap-1 text-[18px]">
